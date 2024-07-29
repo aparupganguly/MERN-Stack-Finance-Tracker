@@ -1,0 +1,39 @@
+.record {
+  width: 20em;
+  background-image: url("../assets/bg.png");
+  background-size: cover;
+  border-radius: 1em;
+}
+.record p {
+  font-family: "Id-Book";
+  padding-left: 1em;
+  color: #fffefe;
+}
+.recordContainer {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 5em;
+  justify-content: center;
+}
+.desc-text {
+  color: #fffefe;
+}
+.desc-text {
+}
+.date-text {
+  color: #f2c8c8 !important;
+}
+.dollar {
+  font-family: "Gilroy-Regular";
+}
+
+.user-text {
+  font-family: "Gilroy-Regular";
+  font-size: 1.5em;
+  color: #2e2e2e;
+}
+.exp-text {
+  font-family: "Id-Medium";
+  font-size: 2em;
+  color: #2e2e2e;
+}

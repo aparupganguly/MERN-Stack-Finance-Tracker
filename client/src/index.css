@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("./assets/fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Id-Book";
+  src: url("./assets/fonts/IDGrotesk/IdBook.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Id-Medium";
+  src: url("./assets/fonts/IDGrotesk/IdMedium.ttf") format("truetype");
+}
+
+body {
+  padding-right: 2em;
+  padding-left: 2em;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.signInContainer button {
+}
+
+.addHeading {
+  font-size: 3em;
+  font-family:"Id-Medium" ;
+}
+.form-container input,
+select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #2e2e2e;
+
+}
+
+.form-container label {
+  font-size: 1.5em;
+  font-family:"Id-Medium" ;
+
+}
+
+.Addbutton {
+  background-color: transparent;
+  color: #fe2b2b;
+  border: none;
+  cursor: pointer;
+  font-size: 2em;
+  padding-top: 2em;
+  font-family: "Gilroy-Regular" !important;
+
+}
+input:focus {
+  background-color: transparent;
+  outline: none;
+}
+.form-field {
+  padding-top: 2em;
+}

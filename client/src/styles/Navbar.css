@@ -1,0 +1,23 @@
+.NavbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fe2b2b;
+  font-family: "Gilroy-Regular";
+
+}
+.logo {
+  font-size: 2em;
+  cursor: pointer;
+}
+.yourExpenseButton {
+  text-decoration: underline;
+  text-underline-offset: 0.4em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+.rightNav{
+  display:flex;
+  align-items:center;
+  gap : 2em;
+}
